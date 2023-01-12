@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 import { SearchIcon, MicrophoneIcon} from "@heroicons/react/solid";
+import Footer from '../components/Footer';
 
 
 export default function Home() {
@@ -24,7 +25,7 @@ export default function Home() {
 
       <form className="flex flex-col items-center mt-40">
         <Image
-         width="300"
+         width="250"
          object-Fit="cover"
           height="100" 
           src= "https://pbs.twimg.com/media/FmQO8zDaEAA8vdm?format=png&name=900x900" />
@@ -44,6 +45,7 @@ export default function Home() {
 
 
       {/* Footer */}
+      <Footer/>
       </div>
   )
 }
