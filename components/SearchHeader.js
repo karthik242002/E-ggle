@@ -20,7 +20,6 @@ export default function SearchHeader() {
                 <Image
                     onClick={() => router.push("/")}
                     width="120"
-                    objectFit="contain"
                     height="40"
                     className="cursor-pointer"
                     src="https://pbs.twimg.com/media/FmQO8zDaEAA8vdm?format=png&name=900x900"
